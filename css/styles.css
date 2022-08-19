@@ -10,12 +10,12 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Times New Roman', 'sans-serif';
 }
 
 body {
     font-size: 14px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Times New Roman', 'sans-serif';
     -webkit-font-smoothing: antialiased;
     background: #fff;
 }
@@ -494,7 +494,7 @@ a:hover {
 }
 
 .feature h2 {
-    border-bottom: 1px solid #66666666;
+    border-bottom: 1px solid #66666633;
     padding: 2%;
     margin-right: 10px;
     color: #26B54D;
@@ -513,13 +513,16 @@ a:hover {
     line-height: 1.6em;
 }
 
-.fblock h2{
+.fblock h2 {
+    background:#26B54D11;
     font-style: oblique;
+    border-radius: 5px;
 }
 
 .fblock li {
     padding: 5px 5px;
     display: flex;
+    
 }
 
 .fblock li b {
@@ -544,6 +547,7 @@ a:hover {
 }
 
 .gallery_collection {
+    margin-top: 20px;
     width: 100%;
     justify-content: center;
     display:grid;
@@ -551,20 +555,23 @@ a:hover {
 }
 
 .gallery {
-    border: 1px solid #ccc;
-    padding-bottom: 50px;
-    height:340px;
+    margin:1%;
+    border: 2px solid #eee;
+    max-height:auto;
+    border-radius: 5px;
 }
 
 
 .gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #26B54D;
 }
 
 .gallery img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height:290px;
 }
 
 .desc {

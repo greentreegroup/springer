@@ -10,24 +10,24 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
 }
 
 body {
     font-size: 14px;
-    font-family: 'Times New Roman', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     -webkit-font-smoothing: antialiased;
     background: #fff;
 }
 
 ::selection {
     color: #fff;
-    background: #26B54D;
+    background: #b2db23;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #26B54D;
+    background: #b2db23;
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 }
 
 a {
-    color: #26B54D;
+    color: #b2db23;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-    color: #FF8930;
+    color: #b2db23;
     text-decoration: none;
 }
 
@@ -79,11 +79,11 @@ a:hover {
 }
 
 .btn:hover {
-    background: #FF8930;
+    background: #b2db23;
 }
 
 .btn-primary {
-    background: #26B54D;
+    background: #b2db23;
 }
 
 .form-control {
@@ -121,12 +121,12 @@ a:hover {
     z-index: 10;
     border-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-top: 2px solid #26B54D;
+    border-top: 2px solid #b2db23;
 }
 
-.navbar-inverse .navbar-toggle {
-    border-color: #26B54D;
-    background-color: #26B54D;
+.inverse .navbar-toggle {
+    border-color: #b2db23;
+    background-color: #b2db23;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -135,7 +135,7 @@ a:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background: #26B54D;
+    background: #b2db23;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .navbar-brand b {
-    color: #26B54D;
+    color: #b2db23;
 }
 
 .logo {
@@ -172,7 +172,7 @@ a:hover {
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-    color: #FF8930;
+    color: #47893f;
     box-shadow: none;
 }
 
@@ -191,11 +191,11 @@ a:hover {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #26B54D;
+    background-color: #b2db23;
 }
 
 .navbar-nav>li:hover {
-    background-color: #26B54D;
+    background-color: #b2db23;
 }
 
 .header .navbar-nav>li>a {
@@ -240,7 +240,7 @@ a:hover {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content>a:hover {
-    background-color: #26B54D96;
+    background-color: #b2db23;
 }
 
 /* Show the dropdown menu on hover */
@@ -274,7 +274,7 @@ a:hover {
 }
 
 .page-section h2 {
-    color: #26B54D;
+    color: #47893f;
 }
 
 .page-section p {
@@ -283,7 +283,7 @@ a:hover {
 }
 
 .darkBg {
-    background: #26B54D;
+    background: #b2db23;
 }
 
 
@@ -479,6 +479,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
+
 .feature {
     width: 100%;
     padding-left: 30px;
@@ -497,7 +498,8 @@ a:hover {
     border-bottom: 1px solid #66666633;
     padding: 2%;
     margin-right: 10px;
-    color: #26B54D;
+    color: #b2db23;
+    background-color: #47893f;
 }
 
 .featurel {
@@ -563,7 +565,7 @@ a:hover {
 
 
 .gallery:hover {
-    border: 2px solid #26B54D;
+    border: 2px solid #b2db23;
 }
 
 .gallery img {
@@ -608,6 +610,7 @@ a:hover {
 
 .grid .text-content h5 {
     font-weight: bold;
+    color: #47893f;
 }
 
 .grid .grid-item .item-content {
@@ -662,7 +665,7 @@ a:hover {
 }
 
 .team-member {
-    background: #26B54D;
+    background: #b2db23;
     padding-top: 5px;
 }
 
@@ -693,12 +696,12 @@ nav#filter li {
 nav#filter a {
     padding: 4px 12px;
     line-height: 20px;
-    border: 1px solid #26B54D;
+    border: 1px solid #b2db23;
     text-decoration: none;
 }
 
 .current {
-    background: #26B54D;
+    background: #b2db23;
     color: #fff;
 }
 

@@ -318,6 +318,30 @@ a:hover {
     background-size: cover;
 }
 
+.banner-container_log {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    max-height: 600px;
+    height: 600px;
+    background: url("../images/AdobeStock_212989119-1024x630.jpeg") no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.banner-container_multi {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    max-height: 600px;
+    height: 600px;
+    background: url("../images/multifamily-investments-1347x900-e1572290685512-1.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
 .bannerOverlay {
     content: '';
     width: 100%;

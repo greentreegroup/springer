@@ -22,12 +22,12 @@ body {
 
 ::selection {
     color: #fff;
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
 }
 
 .pDark p {
-    color: #2B2B2B;
+    color: #000000;
 }
 
 .button-outline {
@@ -58,7 +58,7 @@ p {
 }
 
 a {
-    color: #b2db23;
+    color: #2a8c2d;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-    color: #b2db23;
+    color: #2a8c2d;
     text-decoration: none;
 }
 
@@ -79,11 +79,11 @@ a:hover {
 }
 
 .btn:hover {
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 .btn-primary {
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 .form-control {
@@ -121,12 +121,12 @@ a:hover {
     z-index: 10;
     border-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-top: 2px solid #b2db23;
+    border-top: 2px solid #2a8c2d;
 }
 
 .inverse .navbar-toggle {
-    border-color: #b2db23;
-    background-color: #b2db23;
+    border-color: #2a8c2d;
+    background-color: #2a8c2d;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -135,7 +135,7 @@ a:hover {
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .navbar-brand b {
-    color: #b2db23;
+    color: #2a8c2d;
 }
 
 .logo {
@@ -172,7 +172,7 @@ a:hover {
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-    color: #47893f;
+    color: #2a8c2d;
     box-shadow: none;
 }
 
@@ -191,11 +191,11 @@ a:hover {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #b2db23;
+    background-color: #2a8c2d;
 }
 
 .navbar-nav>li:hover {
-    background-color: #b2db23;
+    background-color: #2a8c2d;
 }
 
 .header .navbar-nav>li>a {
@@ -240,7 +240,7 @@ a:hover {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content>a:hover {
-    background-color: #b2db23;
+    background-color: #2a8c2d;
 }
 
 /* Show the dropdown menu on hover */
@@ -274,7 +274,7 @@ a:hover {
 }
 
 .page-section h2 {
-    color: #47893f;
+    color: #2a8c2d;
 }
 
 .page-section p {
@@ -283,7 +283,7 @@ a:hover {
 }
 
 .darkBg {
-    background: #b2db23;
+    background: #2a8c2d;
 }
 
 
@@ -498,8 +498,12 @@ a:hover {
     border-bottom: 1px solid #66666633;
     padding: 2%;
     margin-right: 10px;
+<<<<<<< HEAD
+    color: #2a8c2d;
+=======
     color: #b2db23;
     background-color: #47893f;
+>>>>>>> d46305e76723d3a142f47e931c50afb1ffc5beaf
 }
 
 .featurel {
@@ -665,7 +669,7 @@ a:hover {
 }
 
 .team-member {
-    background: #b2db23;
+    background: #2a8c2d;
     padding-top: 5px;
 }
 
@@ -696,12 +700,12 @@ nav#filter li {
 nav#filter a {
     padding: 4px 12px;
     line-height: 20px;
-    border: 1px solid #b2db23;
+    border: 1px solid #2a8c2d;
     text-decoration: none;
 }
 
 .current {
-    background: #b2db23;
+    background: #2a8c2d;
     color: #fff;
 }
 

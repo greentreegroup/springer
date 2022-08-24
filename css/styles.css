@@ -325,7 +325,7 @@ a:hover {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
     max-height: 600px;
     height: 600px;
-    background: url("../images/AdobeStock_212989119-1024x630.jpeg") no-repeat;
+    background: url("../images/shutterstock_753807385-2560x852.webp") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
 }
@@ -337,10 +337,47 @@ a:hover {
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
     max-height: 600px;
     height: 600px;
-    background: url("../images/multifamily-investments-1347x900-e1572290685512-1.jpg") no-repeat;
+    background: url("../images/student-housing-banner\(4\).jpg") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
 }
+
+.banner-container_mix {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    max-height: 600px;
+    height: 600px;
+    background: url("../images/HPA-2018-Blog-Hennepin-Mixed-Use.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.banner-container_hos {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    max-height: 600px;
+    height: 600px;
+    background: url("../images/98-982689_luxury-resort-at-night-hotel-negril-jamaica.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.banner-container_dev {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    max-height: 600px;
+    height: 600px;
+    background: url("../images/bnr_InfrastructurePlanningandManagement.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
 
 .bannerOverlay {
     content: '';

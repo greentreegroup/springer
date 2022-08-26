@@ -204,6 +204,8 @@ a:hover {
 
 /* Dropdown button */
 .dropdown .dropbtn {
+    display:block;
+    position:relative;
     font-size: 1.2em;
     border: none;
     outline: none;
@@ -651,8 +653,12 @@ a:hover {
     padding-bottom: 30px;
 }
 
+.heading h1 {
+    font-size: 2.7em;
+}
+
 .heading p {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .pdingBtm30 {
@@ -964,6 +970,10 @@ footer ul li {
     margin-right: 15px;
 }
 
+#aboutUs p{
+    text-align: left;
+}
+
 @media (min-width: 768px) {
     .header .navbar-brand {
         padding-left: 0;
@@ -996,6 +1006,10 @@ footer ul li {
 
     .gallery_collection {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .heading h1 {
+        font-size: 2.3em;
     }
 }
 
@@ -1049,12 +1063,33 @@ footer ul li {
         grid-template-columns: 1fr 1fr;
     }
 
+    .heading h1 {
+        font-size: 2em;
+    }
+
 }
 
 @media (max-width:760px) {
+
     .header .navbar-nav>li>a {
         padding: 7px 12px;
         font-size: 14px;
+    }
+    .dropdown {
+        padding: 7px 12px;
+    }
+    .dropdown .dropbtn {
+        padding: 0%;
+        font-size: 14px;
+    }
+
+    .dropdown-content>a {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+
+    .dropdown-content{
+        margin-left: 100px;
     }
 
     .navbar-inverse .navbar-collapse,
@@ -1101,7 +1136,7 @@ footer ul li {
     .da-slide p {
         width: 65%;
         top: 65px;
-        height: 50px;
+        height: 80px;
     }
 
     .page-section h1 {

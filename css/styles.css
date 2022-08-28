@@ -10,11 +10,11 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Times NEW roman', 'sans-serif';
 }
 
 body {
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Roboto', 'sans-serif';
     -webkit-font-smoothing: antialiased;
     background: #fff;
@@ -47,7 +47,7 @@ p {
     padding: 10px 25px;
     border: 2px solid #fff;
     border-radius: 0px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     background: rgba(255, 255, 255, 0.15);
 }
@@ -184,7 +184,7 @@ a:hover {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #858585;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -204,13 +204,13 @@ a:hover {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-    display:block;
-    position:relative;
-    font-size: 1.2em;
+    display: block;
+    position: relative;
+    font-size: 20px;
     border: none;
     outline: none;
     color: #858585;
-    padding: 23px 18px;
+    padding: 0;
     background-color: inherit;
     font-family: inherit;
     /* Important for vertical align on mobile phones */
@@ -223,7 +223,7 @@ a:hover {
 .dropdown-content {
     display: none;
     position: solute;
-    background-color: #f8f8f8;
+    background-color: #ffffffdc;
     min-width: 128px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -419,13 +419,15 @@ a:hover {
 }
 
 .banner_main {
-    display:flex;
+    display: flex;
     min-height: auto;
     padding: 1%;
     padding-top: 80px;
-    margin:auto;
+    margin: auto;
     justify-content: center;
 }
+
+
 
 .banner_main img {
     background-color: #66666633;
@@ -434,6 +436,11 @@ a:hover {
 .banner_main button {
     height: 60px;
     position: relative;
+}
+
+.product_banner_main {
+    width: 100%;
+    height: 650px;
 }
 
 .bl {
@@ -482,6 +489,11 @@ a:hover {
     font-size: 20px;
 }
 
+.name h1 {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
 .two-col-info {
     width: 100%;
     padding-left: 30px;
@@ -512,13 +524,13 @@ a:hover {
     padding: 40px 40px;
     font-size: 20px;
     margin: 3%;
-    color: #fff;
+    color: #000;
 }
 
 .two-left li {
     margin: 10px;
     padding-bottom: 10px;
-    color: #fff;
+    color: #000;
     border-bottom: 1px solid #555555;
 }
 
@@ -561,12 +573,10 @@ a:hover {
     border-bottom: 1px solid #66666633;
     padding: 2%;
     margin-right: 10px;
-<<<<<<< HEAD
-    color: #2a8c2d;
-=======
-    color: #b2db23;
+    <<<<<<< HEAD color: #2a8c2d;
+    =======color: #b2db23;
     background-color: #47893f;
->>>>>>> d46305e76723d3a142f47e931c50afb1ffc5beaf
+    >>>>>>>d46305e76723d3a142f47e931c50afb1ffc5beaf
 }
 
 .featurel {
@@ -583,7 +593,7 @@ a:hover {
 }
 
 .fblock h2 {
-    background:#26B54D11;
+    background: none;
     font-style: oblique;
     border-radius: 5px;
 }
@@ -591,7 +601,7 @@ a:hover {
 .fblock li {
     padding: 5px 5px;
     display: flex;
-    
+
 }
 
 .fblock li b {
@@ -619,14 +629,14 @@ a:hover {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .gallery {
-    margin:1%;
+    margin: 1%;
     border: 2px solid #eee;
-    max-height:auto;
+    max-height: auto;
     border-radius: 5px;
 }
 
@@ -640,7 +650,7 @@ a:hover {
     border-top-right-radius: 5px;
     object-fit: cover;
     width: 100%;
-    height:290px;
+    height: 290px;
 }
 
 .desc {
@@ -654,7 +664,7 @@ a:hover {
 }
 
 .heading h1 {
-    font-size: 2.7em;
+    font-size: 2.5em;
 }
 
 .heading p {
@@ -705,9 +715,13 @@ a:hover {
 }
 
 .team-member .member-img img {
-    max-width: 250px;
+    width: 100%;
     margin: 0 auto;
-    /*border:2px #D3D3D3 solid;*/
+    border: 2px #D3D3D3 solid;
+}
+
+#more {
+    display: none;
 }
 
 .team-member h3 {
@@ -805,6 +819,31 @@ nav#filter a {
     left: 0;
     top: 0;
     color: rgba(220, 220, 220);
+}
+
+.port-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.port-row {
+    padding: 20px;
+}
+
+.port-col img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.port-col p{
+    line-height: normal;
+    font-size: 18px;
+}
+.port-col h2{
+    line-height: normal;
+    font-size: 25px;
 }
 
 .fancybox-overlay {
@@ -970,7 +1009,7 @@ footer ul li {
     margin-right: 15px;
 }
 
-#aboutUs p{
+#aboutUs p {
     text-align: left;
 }
 
@@ -1011,9 +1050,15 @@ footer ul li {
     .heading h1 {
         font-size: 2.3em;
     }
+
+    .port-content {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 768px) {
+
+
     .banner-container {
         background-size: cover;
     }
@@ -1036,6 +1081,7 @@ footer ul li {
         min-width: initial;
         height: 400px;
         margin: 0px auto;
+        /* display:none; */
     }
 
     .header .navbar-nav>li>a {
@@ -1055,7 +1101,7 @@ footer ul li {
         font-size: 1em;
     }
 
-    .fblock span{
+    .fblock span {
         text-align: right;
     }
 
@@ -1067,6 +1113,10 @@ footer ul li {
         font-size: 2em;
     }
 
+    .port-content {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media (max-width:760px) {
@@ -1075,9 +1125,11 @@ footer ul li {
         padding: 7px 12px;
         font-size: 14px;
     }
+
     .dropdown {
         padding: 7px 12px;
     }
+
     .dropdown .dropbtn {
         padding: 0%;
         font-size: 14px;
@@ -1088,7 +1140,7 @@ footer ul li {
         font-size: 14px;
     }
 
-    .dropdown-content{
+    .dropdown-content {
         margin-left: 100px;
     }
 
@@ -1101,10 +1153,26 @@ footer ul li {
         grid-template-columns: 1fr 1fr;
     }
 
-    .fblock{
-        margin:auto;
+    .fblock {
+        margin: auto;
     }
-    
+
+    .product_banner_main {
+        width: 100%;
+        height: 350px;
+    }
+
+    .bl {
+        margin-top: 100px;
+    }
+
+    .br {
+        margin-top: 100px;
+    }
+
+    .name h1 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 480px) {

@@ -60,10 +60,8 @@
 
 .da-slide h2 {
     color: #fff;
-    font-size: 66px;
-    width: 50%;
+    font-size: 40px;
     top: 60px;
-    white-space: nowrap;
     z-index: 10;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
     font-weight: 700;

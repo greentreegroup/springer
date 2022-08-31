@@ -10,12 +10,12 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times NEW roman', 'sans-serif';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 body {
     font-size: 20px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #fff;
 }
@@ -35,7 +35,9 @@ p {
 }
 
 .pDark p {
-    color: #000000;
+    color: #111111;
+    text-align:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, serif;
 }
 
 .button-outline {
@@ -157,13 +159,16 @@ a:hover {
 }
 
 .navbar-brand b {
+    font-weight: 550;
     color: #2a8c2d;
+    font-family: baskerville, serif;
 }
 
 .logo {
     font-size: 2.2em;
     text-shadow: none;
     margin: 8px 0 0 0;
+    font-family: baskerville, serif;
 }
 
 .logo:hover {
@@ -259,6 +264,7 @@ a:hover {
     color: #fff;
 }
 
+
 .page-section {
     width: 100%;
     height: auto;
@@ -266,7 +272,7 @@ a:hover {
 }
 
 .page-section h1 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin: 60px 0 30px;
     line-height: 1.2em;
 }
@@ -285,7 +291,7 @@ a:hover {
 }
 
 .darkBg {
-    background: #2a8c2d;
+    background: #25a81378;
 }
 
 
@@ -313,8 +319,8 @@ a:hover {
     position: relative;
     padding: 0px;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-    max-height: 700px;
-    height: 800px;
+    max-height: 650px;
+    height: 650px;
     background: url("../images/banner-bg3.png") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -342,6 +348,12 @@ a:hover {
     background: url("../images/student-housing-banner\(4\).jpg") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
+}
+
+.banner-container_multi h2{
+    display:flex;
+    padding:5px;
+    background-color: #24242466;
 }
 
 .banner-container_mix {
@@ -384,6 +396,7 @@ a:hover {
 .bannerOverlay {
     content: '';
     width: 100%;
+    
 }
 
 .banner-content {
@@ -393,8 +406,7 @@ a:hover {
 
 .banner-content h2 {
     color: #fff;
-
-    font-size: 3.5em;
+    font-size: 3em;
     margin: 2% 0 30px;
     line-height: 1.2em;
 }
@@ -579,6 +591,17 @@ a:hover {
     >>>>>>>d46305e76723d3a142f47e931c50afb1ffc5beaf
 }
 
+#index-large-text{
+    font-weight: 700; 
+    font-family:'Times New Roman', Times, serif;
+    margin:20px 20px 20px 20px;
+    padding: 10px 5px 10px 5px;
+    color: #333; 
+    text-align: center;
+    font-size: 2.7em;
+    /* border: 3px solid green; */
+}
+
 .featurel {
     margin: 3%;
 }
@@ -682,13 +705,13 @@ a:hover {
 /* Services
     -------------------------------------------------*/
 .grid .text-content {
-    padding-left: 35%;
+    padding: 0px 15px 0px 15px;
 }
 
 .grid .text-content {
     display: block;
-    padding-left: 19%;
-    padding-right: 8%;
+    padding-left: 21%;
+    padding-right: 10%;
 }
 
 .grid .grid-item {}
@@ -700,9 +723,30 @@ a:hover {
 
 .grid .grid-item .item-content {
     display: block;
+    min-height:300px;
     outline: none;
     text-decoration: none;
-    padding: 20px 0;
+    padding: 20px 5px 5px 5px;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 3px 3px 3px 3px #24242433;
+}
+
+.how-invest-list{
+    display:flex;
+}
+
+.what-we-do li{
+    display:block;
+}
+
+.how-invest-list li {
+    font-size: 20px;
+    float:left;
+    display: block;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 1px 1px 1px 1px #24242433;
 }
 
 .item-content .fa {
@@ -714,8 +758,10 @@ a:hover {
 
 /* Team
     ---------------------------------------------------*/
-.team-member {
-    /* margin-bottom: 15px; */
+
+
+.aboutus-index h2{
+    text-align: center;
 }
 
 .team-member .member-img img {
@@ -728,18 +774,26 @@ a:hover {
 
 .team-member h3 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 32px;
-    margin: 10px 0 0 15px;
+    margin-top : 0px;
+    /*text-align:center;*/
+}
+
+.team-member-index h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    display: block;
+    margin-top : 16px;
+
     /*text-align:center;*/
 }
 
 .team-member .pos {
-    font-weight: 600;
+    font-weight: 650;
     font-size: 22px;
     display: block;
-    color: #dee;
-    margin: 10px 0 10px 15px;
     /*text-align:center;*/
 }
 
@@ -751,11 +805,45 @@ a:hover {
     min-height: 90px;
     /*text-align: center;*/
     /*border-bottom: 1px solid #dadde2;*/
-    padding: 5px 15px;
+    padding: 15px 0px 15px 0px;
 }
 
 .team-member {
-    background: rgb(106, 170, 114);;
+    padding: 10px 10px 10px 10px;
+    display: grid; 
+    grid-template-columns: 300px 1fr;
+
+}
+
+.team-member-index{
+    margin: 10px 12px 10px 12px;
+    padding:0%;
+    text-align: center;
+    height: auto;
+    display:block;
+}
+
+
+
+.team-member-index h3 {
+    /* color:rgb(36, 180, 34); */
+    /* color:#2a8c2d; */
+    color:#000;
+    /* padding-bottom:15px; */
+}
+
+
+.team-member-index:hover img{
+    border:1px solid #fff;
+}
+
+.team-member-index h3:hover{
+    font-size: 33px;
+}
+
+
+.pos{
+    color:#858585;
 }
 
 /* ------- */
@@ -930,6 +1018,16 @@ nav#filter a {
     text-shadow: none;
 }
 
+.bottom-menu {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-menu li{
+    
+    line-height: 18px;
+}
+
 .back-to-top:hover {
     background: #333;
     color: #fff;
@@ -1013,9 +1111,26 @@ footer ul li {
     margin-right: 15px;
 }
 
-#aboutUs p {
-    text-align: left;
+
+.index_back {
+    /* background-color: rgb(46, 170, 44); */
+    /* background-color: rgb(46, 170, 14); */
+    /* background-color: rgb(16, 170, 14); */
+    /* background-color: rgb(116, 200, 114); */
+    background-color: rgb(36, 180, 34);
 }
+
+
+.team-content p{
+    color :#fff;
+    font-weight: 300px;
+    color:#000;
+}
+
+.team-member .team-content {
+    padding: 0% 5% 5% 5%;
+}
+
 
 @media (min-width: 768px) {
     .header .navbar-brand {
@@ -1058,10 +1173,19 @@ footer ul li {
     .port-content {
         grid-template-columns: 1fr 1fr;
     }
+
+    .how-invest-list ul{
+        margin:auto;
+        display:grid;
+        grid-template-columns: auto;
+    }
+/* 
+    .aboutus-index {
+        grid-template-columns: auto;
+    } */
 }
 
 @media (max-width: 768px) {
-
 
     .banner-container {
         background-size: cover;
@@ -1069,6 +1193,7 @@ footer ul li {
 
     .team-member .member-img img {
         max-width: 100%;
+
     }
 
     .banner-container {
@@ -1120,18 +1245,27 @@ footer ul li {
     .port-content {
         grid-template-columns: 1fr;
     }
+    .logo {
+        margin:0px;
+        padding:none;
+        font-size: 1.8em;
+    }
+    .banner-content h2{
+        font-size: 1.8em;
+    }
 
 }
 
 @media (max-width:760px) {
+    .logo {
+        margin:0px;
+        padding:none;
+        font-size: 1.8em;
+    }
 
     .header .navbar-nav>li>a {
         padding: 7px 12px;
         font-size: 14px;
-    }
-
-    .dropdown {
-        padding: 7px 12px;
     }
 
     .dropdown .dropbtn {

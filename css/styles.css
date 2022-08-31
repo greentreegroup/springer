@@ -1,5 +1,4 @@
-/*
-Theme Name: Web Trends 
+/* Name: Web Trends 
 Author URI: http://webthemez.com/
 Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
 License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
@@ -714,8 +713,6 @@ a:hover {
     padding-right: 10%;
 }
 
-.grid .grid-item {}
-
 .grid .text-content h5 {
     font-weight: bold;
     color: #47893f;
@@ -1321,7 +1318,7 @@ footer ul li {
     }
 
     .bannerOverlay {
-        height: 270px;
+        height: 50px;
     }
 
     .da-slider {
@@ -1340,9 +1337,7 @@ footer ul li {
     }
 
     .da-slide p {
-        width: 65%;
-        top: 65px;
-        height: 80px;
+        display:none;
     }
 
     .page-section h1 {

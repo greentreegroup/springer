@@ -245,7 +245,9 @@
                         +1 2242163685<br>
                     </address>
                 </div>
-                <form method="post" action="" id="contactfrm" role="form">
+                <form method="POST"
+                    action="https://formsubmit.co/andrewisaacrosenthal@greentree.group"
+                    id="contactfrm" role="form">
 
                     <div class="col-sm-4">
                         <div class="form-group">
@@ -266,9 +268,10 @@
                             <input name="phone"
                                 class="form-control required digits" type="tel"
                                 id="phone" size="30" value=""
-                                placeholder="Enter email phone"
+                                placeholder="Enter phone number"
                                 title="Please enter a valid phone number (at least 10 characters)">
                         </div>
+
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
@@ -278,6 +281,10 @@
                                 placeholder="Enter your message…"
                                 title="Please enter your message (at least 10 characters)"></textarea>
                         </div>
+                        <input type="hidden" name="_next"
+                            value="https://www.greentree.group/Springer/thankyou.html">
+                        <input name="_formsubmit_id" type="text"
+                            style="display:none">
                         <button name="submit" type="submit"
                             class="btn btn-lg btn-primary" id="submit">
                             Submit</button>

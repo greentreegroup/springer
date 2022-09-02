@@ -1,4 +1,8 @@
+window.onload = function (){
+    document.getElementById('#email_contact').innerHTML = "contact@somethingsomething";
+};
 function myRead() {
+    document.getElementById('#email_contact').innerHTML = "contact@somethingsomething";
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
     var btnText = document.getElementById("myBtn");

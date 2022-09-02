@@ -30,7 +30,7 @@ body {
 }
 
 p {
-    color: #858585;
+    color: #666;
 }
 
 .pDark p {
@@ -286,7 +286,7 @@ a:hover {
 
 .page-section p {
     font-size: 1.1em;
-    line-height: 1.6em;
+    line-height: 1.5em;
 }
 
 .darkBg {
@@ -411,7 +411,8 @@ a:hover {
 }
 
 .banner-content p {
-    font-size: 1.9em;
+    line-height: 1.5em;
+    font-size: 1.4em;
     font-weight: normal;
     color: #B0B0B0;
 }

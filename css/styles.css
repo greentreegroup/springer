@@ -1224,8 +1224,20 @@ footer ul li {
     }
 
     .team-member .member-img img {
-        max-width: 100%;
+        max-width: 70%;
+        margin:auto;
+    }
 
+    .team-member h3 {
+        text-align: center;
+    }
+
+    .team-member .pos{
+        text-align: center;
+    }
+
+    .team-member{
+        grid-template-columns: 1fr;
     }
 
     .banner-container {

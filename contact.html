@@ -126,16 +126,75 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-6">
-									
-                    <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3ib6b0YYh0CB6SqexxcVL3bclO-ydwBPnyvy2Qb00eRURFFFUzQzUTRTQzQ0NE9MNUI2RTIzNzFBTSQlQCNjPTEu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-                </div>
-                <div class="col-md-6">
-                    <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3ib6b0YYh0CB6SqexxcVL3bclO-ydwBPnyvy2Qb00eRUQ1lIWDlLQjhLWjNMNUhETkxZMDMyV0FTTSQlQCNjPTEu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>How May We Help You?</h2>
+                    <p></p>
                 </div>
             </div>
 
-            
+            <div class="row mrgn30">
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                    <address>
+                        Springer Capital<br>
+                        430 Beverly Drive, Wilmette Ilinois 60091<br>
+                        Kangding East road 45 Jingan Shanghai 200020<br>
+                    </address>
+                    <address>
+                        <i class="fa fa-phone"></i> +1 2242163685<br>
+                        <i class="fa fa-phone"></i> +86 13661803041<br>
+                        <i class="fa fa-envelope-o"></i>
+                        contact@springer.capital
+                    </address>
+                </div>
+                <form method="POST"
+                    action="https://formsubmit.co/contact@springer.capital"
+                    id="contactfrm" role="form">
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name"
+                                id="name" placeholder="Enter name"
+                                title="Please enter your name (at least 2 characters)">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control"
+                                name="email" id="email"
+                                placeholder="Enter email"
+                                title="Please enter a valid email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input name="phone"
+                                class="form-control required digits" type="tel"
+                                id="phone" size="30" value=""
+                                placeholder="Enter phone number"
+                                title="Please enter a valid phone number (at least 10 characters)">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea name="comment" class="form-control"
+                                id="comments" cols="3" rows="5"
+                                placeholder="Enter your message…"
+                                title="Please enter your message (at least 10 characters)"></textarea>
+                        </div>
+                        <input type="hidden" name="_next"
+                            value="https://www.greentree.group/Springer/thankyou.html">
+                        <input name="_formsubmit_id" type="text"
+                            style="display:none">
+                        <button name="submit" type="submit"
+                            class="btn btn-lg btn-primary" id="submit">
+                            Submit</button>
+                        <div class="result"></div>
+                    </div>
+                </form>
+            </div>
         </div>
         <!--/.container-->
     </section>
